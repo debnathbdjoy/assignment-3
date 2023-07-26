@@ -35,17 +35,173 @@
             }
         }
     </script>
+    
 </head>
 
-<body>
-<header>
+<body class="lato">
+<header class="container mx-auto max-w-7xl mt-12">
+    <div class="navbar bg-[#F85559] rounded-full">
+        <div class="navbar">
+          <div class="dropdown">
+            <label tabindex="0" class="btn btn-ghost lg:hidden">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+            </label>
+            <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 text-white">
+              <li><a>Home</a></li>
+              <li><a>About Us</a></li>
+              <li><a>Shop</a></li>
+              <li><a>All Fruits</a></li>
+            </ul>
+          </div>
+         
+        <div class="navbar hidden lg:flex lg:justify-between">
+          <div>
+          <ul class="menu menu-horizontal px-1 text-white">
+            <li><a>Home</a></li>
+              <li><a>About Us</a></li>
+              <li><a>Shop</a></li>
+              <li><a>All Fruits</a></li>
+          </ul>
+          
+          </div>
+          <div class="flex gap-4">
+            <img src="images/logo.png" alt="">
+            <h4 class="text-4xl font-bold text-white">Fruit Burst</h4>
+          </div>
+          <div class="navbar-end flex justify-end">
+            <form class="">
+              <input type="text" class="w-[400px] pl-5 py-4 rounded-full  relative" placeholder="Search here">
+              <button class="absolute right-24 top-[91px]"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </form>
+          </div>
+        </div>
+        </div>
+        </div>
 
+        <section class="mt-14">
+          <div class="carousel w-full"> 
+            <!-- carousel 1  -->
+
+            <div id="slide1" class="carousel-item relative w-full">
+              <div class="relative">
+                <img src="images/banner1.png" class="w-full opacity-[.8]" />
+              </div>
+              <div class="absolute flex text-center left-[250px] top-[170px] ">
+                <div class="mx-auto justify-center space-y-5">
+                  <h3 class="text-7xl font-extrabold text-white">Exotic tastes at your <br> doorstep</h3>
+                <p class="text-xl font-normal text-white">We supply highly quality organic products</p>
+                <button class="btn ">Shop Now</button>
+                </div>
+              </div>
+              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide4" class="btn btn-circle">❮</a> 
+                <a href="#slide2" class="btn btn-circle">❯</a>
+              </div>
+            </div> 
+            <!-- carousel 2  -->
+            
+            <div id="slide2" class="carousel-item relative w-full">
+              <div class="relative">
+                <img src="images/banner2.png" class="w-full opacity-[.8]" />
+              </div>
+              <div class="absolute flex text-center left-[250px] top-[170px] ">
+                <div class="mx-auto justify-center space-y-5">
+                  <h3 class="text-7xl font-extrabold text-white">Exotic tastes at your <br> doorstep</h3>
+                <p class="text-xl font-normal text-white">We supply highly quality organic products</p>
+                <button class="btn ">Shop Now</button>
+                </div>
+              </div>
+              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide1" class="btn btn-circle">❮</a> 
+                <a href="#slide3" class="btn btn-circle">❯</a>
+              </div>
+            </div>
+            <!-- carousel 3  -->
+             
+            <div id="slide3" class="carousel-item relative w-full">
+              <div class="relative">
+                <img src="images/banner3.png" class="w-full opacity-[.8]" />
+              </div>
+              <div class="absolute flex text-center left-[250px] top-[170px] ">
+                <div class="mx-auto justify-center space-y-5">
+                  <h3 class="text-7xl font-extrabold text-white">Exotic tastes at your <br> doorstep</h3>
+                <p class="text-xl font-normal text-white">We supply highly quality organic products</p>
+                <button class="btn ">Shop Now</button>
+                </div>
+              </div>
+              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide2" class="btn btn-circle">❮</a> 
+                <a href="#slide4" class="btn btn-circle">❯</a>
+              </div>
+            </div> 
+            <!-- carousel 4  -->
+            
+            <div id="slide4" class="carousel-item relative w-full">
+              <div class="relative">
+                <img src="images/banner4.png" class="w-full opacity-[.8]" />
+              </div>
+              <div class="absolute flex text-center left-[250px] top-[170px] ">
+                <div class="mx-auto justify-center space-y-5">
+                  <h3 class="text-7xl font-extrabold text-white">Exotic tastes at your <br> doorstep</h3>
+                <p class="text-xl font-normal text-white">We supply highly quality organic products</p>
+                <button class="btn ">Shop Now</button>
+                </div>
+              </div>
+              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide3" class="btn btn-circle">❮</a> 
+                <a href="#slide1" class="btn btn-circle">❯</a>
+              </div>
+            </div>
+          </div>
+          <section class="w-[1080px] h-[170px] flex justify-between bg-white mx-auto -mt-20 relative pt-4 md:visible lg:visible drop-shadow-lg">
+            <div class="card w-96">
+              <figure class="px-0 pt-0">
+                <img src="images/fruit1.png" alt="Shoes" class="rounded-xl" />
+              </figure>
+              <p class="text-center">Strawberry</p>
+            </div>
+            <div class="card w-96">
+              <figure class="px-0 pt-0">
+                <img src="images/fruit2.png" alt="Shoes" class="rounded-xl" />
+              </figure>
+              <p class="text-center">Orange</p>
+            </div>
+            <div class="card w-96">
+              <figure class="px-0 pt-0">
+                <img src="images/fruit3.png" alt="Shoes" class="rounded-xl" />
+              </figure>
+              <p class="text-center">Mango</p>
+            </div>
+            <div class="card w-96">
+              <figure class="px-0 pt-0">
+                <img src="images/fruit4.png" alt="Shoes" class="rounded-xl" />
+              </figure>
+              <p class="text-center">Strawberry</p>
+            </div>
+            <div class="card w-96">
+              <figure class="px-0 pt-0">
+                <img src="images/fruit5.png" alt="Shoes" class="rounded-xl" />
+              </figure>
+              <p class="text-center">Mango</p>
+            </div>
+          </section>
+        </section>
 </header>
 <main>
-
+  <section>
+    <div>
+      <div>
+        <h3>Deal of the day</h3>
+        <p>Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+      </div>
+      <div></div>
+    </div>
+    <div></div>
+    <div></div>
+  </section>
 </main>
 <footer>
-    
+
 </footer>
 </body>
 
